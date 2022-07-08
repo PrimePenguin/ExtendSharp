@@ -5,11 +5,11 @@ using Newtonsoft.Json.Serialization;
 
 namespace ExtendSharp
 {
-    public partial class ExtendOrderSharp
+    public partial class ExtendService
     {
         private readonly string _apiKey;
 
-        public ExtendOrderSharp(string baseUrl)
+        public ExtendService(string baseUrl)
         {
             _baseUrl = baseUrl;
 
@@ -31,7 +31,7 @@ namespace ExtendSharp
             errorArgs.ErrorContext.Handled = true;
         }
 
-        public ExtendOrderSharp(string baseUrl, string apiKey) : this(baseUrl)
+        public ExtendService(string baseUrl, string apiKey) : this(baseUrl)
         {
             _apiKey = apiKey;
         }
