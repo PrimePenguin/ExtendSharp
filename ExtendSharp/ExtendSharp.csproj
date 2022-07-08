@@ -3,13 +3,13 @@
 	<PropertyGroup>
 		<TargetFrameworks>net461;netcoreapp2.2</TargetFrameworks>
 		<RootNamespace>ExtendSharp</RootNamespace>
-		<Version>1.2.2</Version>
+		<Version>1.0.0</Version>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Description>ExtendSharp is a C# and .NET library that is used internally by Prime Penguin.</Description>
 		<Authors>Ajay Kumar</Authors>
 		<Copyright>Prime Penguin</Copyright>
-		<PackageLicenseUrl>https://raw.githubusercontent.com/PrimePenguin/FlaivySharp/master/LICENSE</PackageLicenseUrl>
+		<PackageLicenseUrl>https://raw.githubusercontent.com/PrimePenguin/ExtendSharp/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/PrimePenguin/ExtendSharp</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/PrimePenguin/ExtendSharp</RepositoryUrl>
 		<PackageTags>PrimePenguin,ecommerce</PackageTags>
