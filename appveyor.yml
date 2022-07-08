@@ -1,0 +1,27 @@
+version: 0.0.{build}
+pull_requests:
+  do_not_increment_build_number: true
+image: Visual Studio 2017
+build_script:
+  - ps: ./scripts/build.ps1
+environment:
+  APPVEYOR_REPO_TAG: true
+artifacts:
+  - path: ExtendSharp/bin/Release/netcoreapp2.2
+    name: netcoreapp22
+  - path: ExtendSharp/bin/Release/net461
+    name: net461
+skip_commits:
+  message: /\[skip\]/
+  files:
+    - readme.md
+    - LICENSE
+    - .gitignore
+    - .vscode/*
+    - changelog.md
+deploy:
+  - provider: NuGet
+    api_key:
+      secure: rKMx/GMvHjSKWMkjOr2Bzo+ht7il6JXI0lJdtBhVVaEqCMsv28lXrDGT7tqIFMNq
+    on:
+      branch: master
