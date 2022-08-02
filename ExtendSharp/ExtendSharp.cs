@@ -5851,8 +5851,9 @@ namespace ExtendSharp
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
-                            throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
+                            // string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            // throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
+                            return null;
                         }
                         else
                         if (status_ == 429)
