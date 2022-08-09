@@ -7117,7 +7117,7 @@ namespace ExtendSharp
         /// The quantity expressed in current unit
         /// </summary>
         [Newtonsoft.Json.JsonProperty("quantity", Required = Newtonsoft.Json.Required.Always)]
-        public double Quantity { get; set; }
+        public decimal Quantity { get; set; }
 
         /// <summary>
         /// The sales unit which defines which unit is being sold
@@ -12483,7 +12483,7 @@ namespace ExtendSharp
         /// (Output) Date when status on row was changed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("statusChangeDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? StatusChangeDate { get; set; }
+        public System.DateTime? StatusChangeDate { get; set; }
 
         /// <summary>
         /// Product number
