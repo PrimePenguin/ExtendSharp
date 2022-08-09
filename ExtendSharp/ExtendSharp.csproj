@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net461;netcoreapp2.2</TargetFrameworks>
 		<RootNamespace>ExtendSharp</RootNamespace>
-		<Version>2.0.2</Version>
+		<Version>2.0.3</Version>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Description>ExtendSharp is a C# and .NET library that is used internally by Prime Penguin.</Description>
