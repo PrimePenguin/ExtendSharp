@@ -12392,7 +12392,7 @@ namespace ExtendSharp
         public PurchaseOrderHeaderStatus? Status { get; set; }
 
         [Newtonsoft.Json.JsonProperty("createDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? CreateDate { get; set; }
+        public System.DateTime? CreateDate { get; set; }
 
         /// <summary>
         /// Warehouse
@@ -12450,7 +12450,7 @@ namespace ExtendSharp
         /// Date when shipped
         /// </summary>
         [Newtonsoft.Json.JsonProperty("shippedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? ShippedDate { get; set; }
+        public System.DateTime? ShippedDate { get; set; }
 
     }
 
