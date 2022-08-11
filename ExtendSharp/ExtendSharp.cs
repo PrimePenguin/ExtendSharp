@@ -12520,13 +12520,13 @@ namespace ExtendSharp
         /// Date describing when row is expected to be delivered to warehouse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("expectedDeliveryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? ExpectedDeliveryDate { get; set; }
+        public System.DateTime? ExpectedDeliveryDate { get; set; }
 
         /// <summary>
         /// (Output) Date describing when row originally was expected to be delivered to warehouse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("originalExpectedDeliveryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTimeOffset? OriginalExpectedDeliveryDate { get; set; }
+        public System.DateTime? OriginalExpectedDeliveryDate { get; set; }
 
         /// <summary>
         /// (Output) Date describing when row was shipped from supplier
