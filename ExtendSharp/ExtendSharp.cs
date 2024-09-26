@@ -137,13 +137,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -267,13 +267,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -368,13 +368,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -469,13 +469,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -576,19 +576,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -804,13 +804,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -911,19 +911,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1028,13 +1028,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Low)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1139,13 +1139,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Low)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1250,13 +1250,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1351,13 +1351,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1452,13 +1452,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1646,13 +1646,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1714,11 +1714,8 @@ namespace ExtendSharp
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
 
-                    if (extendBasicAuthorization != null)
-                        request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
-                    var json_ = Newtonsoft.Json.JsonConvert.SerializeObject(newCustomerOrder, _settings.Value);
-                    var dictionary_ = Newtonsoft.Json.JsonConvert.DeserializeObject<System.Collections.Generic.Dictionary<string, string>>(json_, _settings.Value);
-                    var content_ = new System.Net.Http.FormUrlEncodedContent(dictionary_);
+                    if (extendBasicAuthorization != null) request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
+                    var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(newCustomerOrder, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
@@ -1752,18 +1749,19 @@ namespace ExtendSharp
                             {
                                 throw new ExtendSharpException("Response was null which was not expected.", status_, objectResponse_.Text, headers_, null);
                             }
+
                             return objectResponse_.Object;
                         }
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1864,19 +1862,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -1944,11 +1942,8 @@ namespace ExtendSharp
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
 
-                    if (extendBasicAuthorization != null)
-                        request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
-                    var json_ = Newtonsoft.Json.JsonConvert.SerializeObject(existingCustomerOrder, _settings.Value);
-                    var dictionary_ = Newtonsoft.Json.JsonConvert.DeserializeObject<System.Collections.Generic.Dictionary<string, string>>(json_, _settings.Value);
-                    var content_ = new System.Net.Http.FormUrlEncodedContent(dictionary_);
+                    if (extendBasicAuthorization != null) request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
+                    var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(existingCustomerOrder, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("PUT");
@@ -1987,13 +1982,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2094,13 +2089,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2270,13 +2265,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2381,13 +2376,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2488,19 +2483,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2611,13 +2606,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2713,13 +2708,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Low)", status_, responseText_, headers_, null);
                         }
                         else
@@ -2814,7 +2809,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -2958,13 +2953,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3065,19 +3060,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3188,13 +3183,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3312,13 +3307,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3420,7 +3415,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -3521,13 +3516,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3640,7 +3635,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -3760,13 +3755,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -3859,7 +3854,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -3960,13 +3955,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
@@ -4074,7 +4069,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -4181,7 +4176,7 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
@@ -4333,13 +4328,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4401,11 +4396,8 @@ namespace ExtendSharp
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
 
-                    if (extendBasicAuthorization != null)
-                        request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
-                    var json_ = Newtonsoft.Json.JsonConvert.SerializeObject(newProduct, _settings.Value);
-                    var dictionary_ = Newtonsoft.Json.JsonConvert.DeserializeObject<System.Collections.Generic.Dictionary<string, string>>(json_, _settings.Value);
-                    var content_ = new System.Net.Http.FormUrlEncodedContent(dictionary_);
+                    if (extendBasicAuthorization != null) request_.Headers.TryAddWithoutValidation("extendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
+                    var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(newProduct, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
@@ -4444,13 +4436,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4551,19 +4543,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4631,11 +4623,8 @@ namespace ExtendSharp
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
 
-                    if (extendBasicAuthorization != null)
-                        request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
-                    var json_ = Newtonsoft.Json.JsonConvert.SerializeObject(existingProduct, _settings.Value);
-                    var dictionary_ = Newtonsoft.Json.JsonConvert.DeserializeObject<System.Collections.Generic.Dictionary<string, string>>(json_, _settings.Value);
-                    var content_ = new System.Net.Http.FormUrlEncodedContent(dictionary_);
+                    if (extendBasicAuthorization != null) request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
+                    var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(existingProduct, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("PUT");
@@ -4674,13 +4663,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4781,13 +4770,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4901,13 +4890,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = No limit)", status_, responseText_, headers_, null);
                         }
                         else
@@ -4968,12 +4957,8 @@ namespace ExtendSharp
             {
                 using (var request_ = new System.Net.Http.HttpRequestMessage())
                 {
-
-                    if (extendBasicAuthorization != null)
-                        request_.Headers.TryAddWithoutValidation("ExtendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
-                    var json_ = Newtonsoft.Json.JsonConvert.SerializeObject(newProductSupplierAgreement, _settings.Value);
-                    var dictionary_ = Newtonsoft.Json.JsonConvert.DeserializeObject<System.Collections.Generic.Dictionary<string, string>>(json_, _settings.Value);
-                    var content_ = new System.Net.Http.FormUrlEncodedContent(dictionary_);
+                    if (extendBasicAuthorization != null) request_.Headers.TryAddWithoutValidation("extendBasicAuthorization", ConvertToString(extendBasicAuthorization, System.Globalization.CultureInfo.InvariantCulture));
+                    var content_ = new System.Net.Http.StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(newProductSupplierAgreement, _settings.Value));
                     content_.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json");
                     request_.Content = content_;
                     request_.Method = new System.Net.Http.HttpMethod("POST");
@@ -5012,13 +4997,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5125,19 +5110,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = No limit)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5254,13 +5239,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5367,13 +5352,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5468,13 +5453,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5628,13 +5613,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5738,13 +5723,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5845,20 +5830,20 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            // string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            // string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             // throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                             return null;
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -5968,13 +5953,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6069,13 +6054,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = High)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6223,13 +6208,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6334,13 +6319,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6441,19 +6426,19 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 404)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("NotFound", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6565,13 +6550,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6674,13 +6659,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6783,13 +6768,13 @@ namespace ExtendSharp
                         else
                         if (status_ == 400)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("BadRequest", status_, responseText_, headers_, null);
                         }
                         else
                         if (status_ == 429)
                         {
-                            string responseText_ = ( response_.Content == null ) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
+                            string responseText_ = (response_.Content == null) ? string.Empty : await response_.Content.ReadAsStringAsync().ConfigureAwait(false);
                             throw new ExtendSharpException("Too many requests. (Rate limit = Standard)", status_, responseText_, headers_, null);
                         }
                         else
@@ -6884,7 +6869,7 @@ namespace ExtendSharp
                     var field = System.Reflection.IntrospectionExtensions.GetTypeInfo(value.GetType()).GetDeclaredField(name);
                     if (field != null)
                     {
-                        var attribute = System.Reflection.CustomAttributeExtensions.GetCustomAttribute(field, typeof(System.Runtime.Serialization.EnumMemberAttribute)) 
+                        var attribute = System.Reflection.CustomAttributeExtensions.GetCustomAttribute(field, typeof(System.Runtime.Serialization.EnumMemberAttribute))
                             as System.Runtime.Serialization.EnumMemberAttribute;
                         if (attribute != null)
                         {
@@ -6896,17 +6881,17 @@ namespace ExtendSharp
                     return converted == null ? string.Empty : converted;
                 }
             }
-            else if (value is bool) 
+            else if (value is bool)
             {
                 return System.Convert.ToString((bool)value, cultureInfo).ToLowerInvariant();
             }
             else if (value is byte[])
             {
-                return System.Convert.ToBase64String((byte[]) value);
+                return System.Convert.ToBase64String((byte[])value);
             }
             else if (value.GetType().IsArray)
             {
-                var array = System.Linq.Enumerable.OfType<object>((System.Array) value);
+                var array = System.Linq.Enumerable.OfType<object>((System.Array)value);
                 return string.Join(",", System.Linq.Enumerable.Select(array, o => ConvertToString(o, cultureInfo)));
             }
 
@@ -7117,7 +7102,7 @@ namespace ExtendSharp
         /// The quantity expressed in current unit
         /// </summary>
         [Newtonsoft.Json.JsonProperty("quantity", Required = Newtonsoft.Json.Required.Always)]
-        public decimal Quantity { get; set; }
+        public double Quantity { get; set; }
 
         /// <summary>
         /// The sales unit which defines which unit is being sold
@@ -11639,7 +11624,7 @@ namespace ExtendSharp
         /// <br/>Individual, Series, Batch, HandleDate, Configurable, Bundled, Rental, NonOrderable, NonVisibleWhileOutOfStock, PhaseOut, CreateNewBatch, ReturnableProduct, PickInPackageUnitOnly, AskForUserNote, ReservationLogicOverride, HideBuyButton, RequestedBatchMandatory
         /// </summary>
         [Newtonsoft.Json.JsonProperty("productHandlings", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore, ItemConverterType = typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
-        public System.Collections.Generic.ICollection<ProductHandlings> ProductHandlings { get; set; }
+        public System.Collections.Generic.List<ProductHandlings> ProductHandlings { get; set; }
 
         [Newtonsoft.Json.JsonProperty("kpi", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public bool? Kpi { get; set; }
@@ -12104,19 +12089,28 @@ namespace ExtendSharp
         /// The price
         /// </summary>
         [Newtonsoft.Json.JsonProperty("price", Required = Newtonsoft.Json.Required.Always)]
-        public double Price { get; set; }
+        public double? Price { get; set; }
 
         /// <summary>
         /// The manufacturing lead time
         /// </summary>
         [Newtonsoft.Json.JsonProperty("manufacturingLeadTimeHour", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? ManufacturingLeadTimeHour { get; set; }
+        public int? ManufacturingLeadTimeHour { get; set; }
+
+        [Newtonsoft.Json.JsonProperty("supplierAgreementProductionLeadtimeHours", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public int? SupplierAgreementProductionLeadtimeHours { get; set; }
+
+        [Newtonsoft.Json.JsonProperty("supplierAgreementTransportLeadtimeHours", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public int? SupplierAgreementTransportLeadtimeHours { get; set; }
+
+        [Newtonsoft.Json.JsonProperty("supplierAgreementCurrencyId", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
+        public string SupplierAgreementCurrencyId { get; set; }
 
         /// <summary>
         /// The VAT percent
         /// </summary>
         [Newtonsoft.Json.JsonProperty("vatPercent", Required = Newtonsoft.Json.Required.Always)]
-        public double VatPercent { get; set; }
+        public int? VatPercent { get; set; }
 
         /// <summary>
         /// The Inactive
@@ -12140,7 +12134,7 @@ namespace ExtendSharp
         /// Used when useOtherPurchaseUnit is true. Number of product units in one purchase unit.
         /// </summary>
         [Newtonsoft.Json.JsonProperty("quantityPerPurchaseProductUnit", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public double? QuantityPerPurchaseProductUnit { get; set; }
+        public int? QuantityPerPurchaseProductUnit { get; set; }
 
     }
 
@@ -12392,7 +12386,7 @@ namespace ExtendSharp
         public PurchaseOrderHeaderStatus? Status { get; set; }
 
         [Newtonsoft.Json.JsonProperty("createDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTime? CreateDate { get; set; }
+        public System.DateTimeOffset? CreateDate { get; set; }
 
         /// <summary>
         /// Warehouse
@@ -12450,7 +12444,7 @@ namespace ExtendSharp
         /// Date when shipped
         /// </summary>
         [Newtonsoft.Json.JsonProperty("shippedDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTime? ShippedDate { get; set; }
+        public System.DateTimeOffset? ShippedDate { get; set; }
 
     }
 
@@ -12483,7 +12477,7 @@ namespace ExtendSharp
         /// (Output) Date when status on row was changed
         /// </summary>
         [Newtonsoft.Json.JsonProperty("statusChangeDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTime? StatusChangeDate { get; set; }
+        public System.DateTimeOffset? StatusChangeDate { get; set; }
 
         /// <summary>
         /// Product number
@@ -12520,13 +12514,13 @@ namespace ExtendSharp
         /// Date describing when row is expected to be delivered to warehouse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("expectedDeliveryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTime? ExpectedDeliveryDate { get; set; }
+        public System.DateTimeOffset? ExpectedDeliveryDate { get; set; }
 
         /// <summary>
         /// (Output) Date describing when row originally was expected to be delivered to warehouse
         /// </summary>
         [Newtonsoft.Json.JsonProperty("originalExpectedDeliveryDate", Required = Newtonsoft.Json.Required.Default, NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-        public System.DateTime? OriginalExpectedDeliveryDate { get; set; }
+        public System.DateTimeOffset? OriginalExpectedDeliveryDate { get; set; }
 
         /// <summary>
         /// (Output) Date describing when row was shipped from supplier
@@ -15859,7 +15853,7 @@ namespace ExtendSharp
 
 #pragma warning restore 1591
 #pragma warning restore 1573
-#pragma warning restore  472
-#pragma warning restore  114
-#pragma warning restore  108
+#pragma warning restore 472
+#pragma warning restore 114
+#pragma warning restore 108
 #pragma warning restore 3016
